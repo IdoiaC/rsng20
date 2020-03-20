@@ -9,7 +9,7 @@ var app = express();
 // cambiar a ip y puerto en los que sí pueda escuchar la app
 
 var server_port = 8080 || 1234;
-var server_ip_address = 10.129.4.181 || '127.0.0.1';
+var server_ip_address = '10.129.4.181' || '127.0.0.1';
 
 app.get('/', function(req,res) {
 
