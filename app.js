@@ -3,7 +3,7 @@ var app = express();
 
 // ports setup
 var server_port = 8080;
-var server_ip_address = 0.0.0.0;
+var server_ip_address = '0.0.0.0';
 
 // IMPORTANTE: he leído que estas variables ya están obsoletas y Openshift ya no las usa
 // cambiar a ip y puerto en los que sí pueda escuchar la app
