@@ -3,7 +3,7 @@ var app = express();
 
 // ports setup
 var server_port = 1234;
-var server_ip_address = '127.0.0.1';
+var server_ip_address = '0.0.0.0';
 
 app.get('/:id', function(req,res) {
 	var buffer = Buffer.alloc(parseInt(req.params.id,10),5);
