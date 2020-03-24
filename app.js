@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 // ports setup
-var server_port = 1234;
+var server_port = 8080;
 var server_ip_address = '0.0.0.0';
 
 app.get('/:id', function(req,res) {
